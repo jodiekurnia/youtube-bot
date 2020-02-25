@@ -63,7 +63,7 @@ class Bot:
         return self
 
     def login(self, email, password):
-        loginButtonLocator = 'ytd-button-renderer.style-blue-text[is-paper-button]'
+        loginButtonLocator = 'yt-icon.ytd-button-renderer'
         emailInputLocator = 'identifier'
         passwordInputLocator = (By.NAME, 'password')
         userProfileLocator = (By.TAG_NAME, 'ytd-topbar-menu-button-renderer')
